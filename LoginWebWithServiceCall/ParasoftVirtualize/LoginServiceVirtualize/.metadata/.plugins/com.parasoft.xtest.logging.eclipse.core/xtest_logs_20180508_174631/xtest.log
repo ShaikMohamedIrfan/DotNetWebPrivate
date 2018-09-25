@@ -1,0 +1,28 @@
+[ERROR] [17:46:45,520] main com.parasoft.xtest.checkers.api.rules.RulesCore: URL is nul in rule provider com.parasoft.xtest.execution.eclipse.core.web.checker
+[INFO ] [17:46:45,829] Thread-21 com.parasoft.stub.Logger: Starting Server...
+[INFO ] [17:47:03,874] Thread-21 com.parasoft.stub.report.Logger: Builtin event monitoring provider started on port 9617
+[INFO ] [17:47:04,053] Thread-21 com.parasoft.stub.report.events.Logger: Event monitoring service started
+[INFO ] [17:47:04,775] Thread-21 com.parasoft.stub.report.Logger: Builtin hit statistics provider started on port 9618
+[INFO ] [17:47:04,801] Thread-21 com.parasoft.stub.report.statistics.Logger: Server hit statistics service started
+[INFO ] [17:47:04,803] Thread-21 com.parasoft.stub.Logger: Server started.
+[INFO ] [17:47:04,811] Thread-21 com.parasoft.stub.deployment.Logger: Deploying all assets...
+[INFO ] [17:47:05,414] Thread-21 com.parasoft.stub.deployment.Logger: Deploying virtual asset...
+[INFO ] [17:47:05,430] psft_pool-4-DeployerThread-1 com.parasoft.stub.deployment.Logger: 	Name="LoginService", Path="/Service1.svc", Location="G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize\VirtualAssets\LoginService.pva".
+[INFO ] [17:47:05,460] psft_pool-4-DeployerThread-1 com.parasoft.stub.deployment.Logger: Deployment finished
+[INFO ] [17:47:05,463] Thread-21 com.parasoft.stub.deployment.Logger: Deployment of all assets has finished
+[INFO ] [17:47:05,466] Thread-21 com.parasoft.stub.deployment.Logger: Deployment of [1] asset(s) took: 659 ms.
+[ERROR] [17:47:15,044] http-9080-1 com.parasoft.stub.HttpRequestProcessor: Could not find a valid Message Responder to respond to this request.
+Be sure you have a Message Responder with correlation criteria that match this message.
+1 virtual asset attempted to process this request: 
+LoginService
+	Fault
+		Correlation type: Transport
+			Disabled : true
+		Correlation type: Request Body
+			Empty Payload : false
+	LoginUser
+		Correlation type: Transport
+			[criteria=SOAPAction, expected=http://tempuri.org/IService1/LoginUser, actual=[NOT_FOUND], results=false]
+
+Request : 
+.

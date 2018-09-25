@@ -1,0 +1,203 @@
+!SESSION 2018-04-17 12:40:50.193 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  Files\Parasoft\Test\9.10 for SOAtest & Virtualize\eclipse.exe -product com.parasoft.xtest.soavirt.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 Files\Parasoft\Test\9.10 for SOAtest & Virtualize\eclipse.exe -product com.parasoft.xtest.soavirt.product
+
+!ENTRY org.eclipse.equinox.ds 2 0 2018-04-17 12:41:23.773
+!MESSAGE [SCR - WorkThread] Timeout occurred! Thread was blocked on processing [QueuedJob] WorkPerformer: org.eclipse.equinox.internal.ds.SCRManager@49da5cf7; actionType 1
+
+!ENTRY org.eclipse.equinox.ds 2 0 2018-04-17 12:41:23.836
+!MESSAGE [SCR] Enabling components of bundle org.eclipse.ui.trace did not complete in 30000 ms 
+
+!ENTRY org.eclipse.core.runtime 4 0 2018-04-17 12:41:53.876
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="3.12.0.v20160606-1342"; osgi.identity="org.eclipse.core.runtime"; singleton:="true" [id=176] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1600)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 30 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 8 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 30 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1600)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SESSION 2018-04-17 15:45:52.989 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report G:\ParasoftReports\myreport
+Command-line arguments:  -noupdate -data G:\manas\work\DevOpsTest\TestApplications\DotNetTestApplication\LoginWeb\ParasoftSOATest -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report G:\ParasoftReports\myreport
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-17 15:45:58.286
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-17 15:46:18.247
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-04-17 15:46:13.259 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report G:\ParasoftReports\myreport
+Command-line arguments:  -noupdate -data G:\manas\work\DevOpsTest\TestApplications\DotNetTestApplication\LoginWeb\ParasoftSOATest -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report G:\ParasoftReports\myreport
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-17 15:47:19.815
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-04-17 15:50:00.977 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report G:\ParasoftReports\myreport
+Command-line arguments:  -noupdate -data G:\manas\work\DevOpsTest\TestApplications\DotNetTestApplication\LoginWeb\ParasoftSOATest -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report G:\ParasoftReports\myreport
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-17 15:50:09.307
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-17 15:51:12.093
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-04-17 15:53:21.892 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  Files\Parasoft\Test\9.10 for SOAtest & Virtualize\eclipse.exe -product com.parasoft.xtest.soavirt.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 Files\Parasoft\Test\9.10 for SOAtest & Virtualize\eclipse.exe -product com.parasoft.xtest.soavirt.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-17 15:53:43.033
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2018-04-17 16:47:20.029 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report G:\ParasoftReports\myreport
+Command-line arguments:  -noupdate -data G:\manas\work\DevOpsTest\TestApplications\DotNetTestApplication\LoginWeb\ParasoftSOATest -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report G:\ParasoftReports\myreport
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-17 16:47:25.659
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-17 16:47:55.469
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-04-17 16:48:03.988 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report G:\ParasoftReports\myreport
+Command-line arguments:  -noupdate -data G:\manas\work\DevOpsTest\TestApplications\DotNetTestApplication\LoginWeb\ParasoftSOATest -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report G:\ParasoftReports\myreport
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-17 16:48:06.936
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-17 16:49:28.319
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-04-17 16:49:53.852 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report G:\ParasoftReports\myreport
+Command-line arguments:  -noupdate -data G:\manas\work\DevOpsTest\TestApplications\DotNetTestApplication\LoginWeb\ParasoftSOATest -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report G:\ParasoftReports\myreport
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-17 16:50:02.404
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-17 16:51:07.316
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-03 14:57:00.412 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report C:\ParasoftReports
+Command-line arguments:  -noupdate -data G:\LocalGitMapDotNet\DotNetWebPrivate\LoginWeb\ParasoftSOATest -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -resource TestLoginWeb -config user://Example Configuration -report C:\ParasoftReports
+
+!ENTRY org.eclipse.equinox.ds 2 0 2018-05-03 14:57:38.826
+!MESSAGE [SCR - WorkThread] Timeout occurred! Thread was blocked on processing [QueuedJob] WorkPerformer: org.eclipse.equinox.internal.ds.SCRManager@525af108; actionType 1
+
+!ENTRY org.eclipse.equinox.ds 2 0 2018-05-03 14:57:38.829
+!MESSAGE [SCR] Enabling components of bundle org.eclipse.ui.trace did not complete in 30000 ms 
+
+!ENTRY org.eclipse.core.runtime 4 0 2018-05-03 14:58:09.275
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="3.12.0.v20160606-1342"; osgi.identity="org.eclipse.core.runtime"; singleton:="true" [id=176] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1600)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 30 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 8 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 30 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1600)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-03 14:58:43.355
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-03 14:59:26.975
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-08 15:55:12.704 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftTest\ParasoftSOATest -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 15:55:15.960
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2018-05-08 16:09:23.123 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftTest\ParasoftSOATest -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:09:43.906
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-08 16:10:45.039 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftTest\ParasoftSOATest -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:10:48.512
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

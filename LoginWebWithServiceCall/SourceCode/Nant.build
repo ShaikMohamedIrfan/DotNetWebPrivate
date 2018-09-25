@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+  <project name="Login Web" default="build" basedir=".">
+    <target name="clean">
+      <delete dir="Build"/>
+    </target>
+	<target name="buildDir" depends="clean">
+	  <mkdir dir="Build" />
+	</target>
+    <target name="copypackage" depends="buildDir">	
+      <copy todir="Build\bin">
+    	<fileset basedir="packages\NUnit.3.9.0\lib\net40">
+          <include name="*.dll" />
+	      <include name="*.xml" />
+    	</fileset>
+      </copy>
+    </target>
+	<target name="copyconfig" depends="copypackage">	
+	  <copy file="LoginWeb\web.config" tofile="Build\web.config"/>
+	</target>
+	<target name="imagecopy" depends="copyconfig">
+	  <copy file="LoginWeb\TransitusLogoBig.png" tofile="Build\TransitusLogoBig.png"/>
+	</target>
+	<target name="copyaspx" depends="imagecopy">	
+	  <copy todir="Build">
+    	<fileset basedir="LoginWeb">
+          <include name="*.aspx" />
+    	</fileset>
+      </copy>
+	</target>
+    <target name="build" depends="copyaspx">
+      <exec program="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe">
+        <arg line='"LoginWeb.sln"' />
+        <arg line="/p:Configuration=Debug" />		
+        <arg line="/p:OutputPath=..\Build\bin\" />
+        <arg value="/t:Rebuild" />
+      </exec>
+    </target>
+  </project>

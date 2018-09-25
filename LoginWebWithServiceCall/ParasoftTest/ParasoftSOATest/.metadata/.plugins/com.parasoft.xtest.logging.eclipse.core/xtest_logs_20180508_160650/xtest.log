@@ -1,0 +1,8 @@
+[ERROR] [16:07:04,895] main com.parasoft.xtest.checkers.api.rules.RulesCore: URL is nul in rule provider com.parasoft.xtest.execution.eclipse.core.web.checker
+[INFO ] [16:07:05,298] Thread-22 com.parasoft.stub.Logger: Starting Server...
+[INFO ] [16:07:22,959] Thread-22 com.parasoft.stub.report.Logger: Builtin event monitoring provider started on port 9617
+[INFO ] [16:07:23,132] Thread-22 com.parasoft.stub.report.events.Logger: Event monitoring service started
+[INFO ] [16:07:23,782] Thread-22 com.parasoft.stub.report.Logger: Builtin hit statistics provider started on port 9618
+[INFO ] [16:07:23,805] Thread-22 com.parasoft.stub.report.statistics.Logger: Server hit statistics service started
+[INFO ] [16:07:23,806] Thread-22 com.parasoft.stub.Logger: Server started.
+[INFO ] [16:07:23,815] Thread-22 com.parasoft.stub.deployment.Logger: Deployment of [0] asset(s) took: 5 ms.

@@ -1,0 +1,13 @@
+POST http://transitus09-pc/LoginWeb/LoginForm.aspx HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://transitus09-pc/LoginWeb/LoginForm.aspx
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Content-Length: 431
+DNT: 1
+Host: transitus09-pc
+Pragma: no-cache
+
+__VIEWSTATE=UtyWmSETSnkioVXJQXcmPV9j7YbeSsgGjuANOK5I3LMlHsLZay9Pjbkbwwfahsz1%2FfI90shrghrBZdcuiNIPcGG5D6646qBTfJ9nmiTzcEw%3D&__VIEWSTATEGENERATOR=93B5164A&__EVENTVALIDATION=DC9%2F1ghBwIkrMpB%2FrJ%2Fl9uyN6n7iTCKVF%2BQIHNO6jx9%2Fiq9prQRG84BXxAU9Tfe5QydiDO20gllhHrvdORVpWxeYcJ9E%2BzS983cRInLoMqPgNuSNoJyLS8Vu7yWpGFVG9iuV%2Fkp7UQlwdrdUbqD4UEgSHRxYNrsAdEgL6tTUTBloFqATTun5MlUR2amG0KD5&txtUserName=Irfan&txtPassword=****************&btnLogin=Login

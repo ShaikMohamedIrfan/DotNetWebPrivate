@@ -1,0 +1,10 @@
+[ERROR] [15:59:08,123] main com.parasoft.xtest.checkers.api.rules.RulesCore: URL is nul in rule provider com.parasoft.xtest.execution.eclipse.core.web.checker
+[INFO ] [15:59:08,351] Thread-22 com.parasoft.stub.Logger: Starting Server...
+[INFO ] [15:59:25,579] Thread-22 com.parasoft.stub.report.Logger: Builtin event monitoring provider started on port 9617
+[INFO ] [15:59:25,739] Thread-22 com.parasoft.stub.report.events.Logger: Event monitoring service started
+[INFO ] [15:59:26,336] Thread-22 com.parasoft.stub.report.Logger: Builtin hit statistics provider started on port 9618
+[INFO ] [15:59:26,365] Thread-22 com.parasoft.stub.report.statistics.Logger: Server hit statistics service started
+[INFO ] [15:59:26,366] Thread-22 com.parasoft.stub.Logger: Server started.
+[INFO ] [15:59:26,378] Thread-22 com.parasoft.stub.deployment.Logger: Deployment of [0] asset(s) took: 7 ms.
+[ERROR] [15:59:30,651] http-9080-1 com.parasoft.stub.HttpRequestProcessor: There are no deployments on this server. Cannot respond to this request: /Service1.svc
+[ERROR] [15:59:34,598] http-9080-1 com.parasoft.stub.HttpRequestProcessor: There are no deployments on this server. Cannot respond to this request: /Service1.svc

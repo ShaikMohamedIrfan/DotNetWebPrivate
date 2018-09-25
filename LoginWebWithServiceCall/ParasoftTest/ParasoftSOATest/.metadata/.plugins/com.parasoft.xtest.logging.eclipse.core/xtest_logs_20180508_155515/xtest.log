@@ -1,0 +1,21 @@
+[ERROR] [15:55:34,305] main com.parasoft.xtest.checkers.api.rules.RulesCore: URL is nul in rule provider com.parasoft.xtest.execution.eclipse.core.web.checker
+[INFO ] [15:55:34,576] Thread-22 com.parasoft.stub.Logger: Starting Server...
+[INFO ] [15:55:49,887] Thread-22 com.parasoft.stub.report.Logger: Builtin event monitoring provider started on port 9617
+[INFO ] [15:55:50,039] Thread-22 com.parasoft.stub.report.events.Logger: Event monitoring service started
+[INFO ] [15:55:50,455] Thread-22 com.parasoft.stub.report.Logger: Builtin hit statistics provider started on port 9618
+[INFO ] [15:55:50,496] Thread-22 com.parasoft.stub.report.statistics.Logger: Server hit statistics service started
+[INFO ] [15:55:50,497] Thread-22 com.parasoft.stub.Logger: Server started.
+[INFO ] [15:55:50,504] Thread-22 com.parasoft.stub.deployment.Logger: Deployment of [0] asset(s) took: 4 ms.
+[ERROR] [15:56:04,900] http-9080-1 com.parasoft.stub.HttpRequestProcessor: There are no deployments on this server. Cannot respond to this request: /Service1.svc
+[ERROR] [15:56:13,110] http-9080-1 com.parasoft.stub.HttpRequestProcessor: There are no deployments on this server. Cannot respond to this request: /Service1.svc
+[ERROR] [15:56:21,553] http-9080-2 com.parasoft.stub.HttpRequestProcessor: There are no deployments on this server. Cannot respond to this request: /Service1.svc
+[WARN ] [15:56:55,503] com.parasoft.stub.report.statistics.ServerStatisticsHandler: Statistics Message Sender com.parasoft.stub.report.statistics.Logger: Failed an attempt to report a statistics message
+javax.jms.IllegalStateException: The Session is closed
+	at org.apache.activemq.ActiveMQSession.checkClosed(ActiveMQSession.java:733)
+	at org.apache.activemq.ActiveMQSession.configureMessage(ActiveMQSession.java:721)
+	at org.apache.activemq.ActiveMQSession.createMapMessage(ActiveMQSession.java:333)
+	at com.parasoft.stub.report.statistics.StatisticsReporter.report(StatisticsReporter.java:116)
+	at com.parasoft.stub.report.statistics.ServerStatisticsHandler$MessageSendTask.run(ServerStatisticsHandler.java:114)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[WARN ] [15:56:55,507] com.parasoft.stub.report.statistics.ServerStatisticsHandler: Statistics Message Sender com.parasoft.stub.report.statistics.Logger: Throwable caught

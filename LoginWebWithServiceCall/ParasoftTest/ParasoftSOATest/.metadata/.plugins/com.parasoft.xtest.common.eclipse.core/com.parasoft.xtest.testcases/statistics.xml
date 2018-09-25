@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestsRun>
+   <Project err="0" fail="0" name="TestLoginWeb" skip="0" success="4" total="4">
+      <TestCase id="wk:///TestLoginWeb/LoginCredentials.tst#0000000000#0000000001#0000000002#0000000004#0000000006" success="true"/>
+      <TestCase id="wk:///TestLoginWeb/LoginCredentials.tst#0000000000#0000000001#0000000002#0000000004#0000000005" success="true"/>
+      <TestCase id="wk:///TestLoginWeb/LoginCredentials.tst#0000000000#0000000001#0000000002#0000000003" success="true"/>
+      <TestCase id="wk:///TestLoginWeb/LoginCredentials.tst#0000000000#0000000001#0000000002#0000000004#0000000007" success="true"/>
+   </Project>
+   <Project err="0" fail="0" name="VirtualAssets" skip="0" success="0" total="0"/>
+</TestsRun>

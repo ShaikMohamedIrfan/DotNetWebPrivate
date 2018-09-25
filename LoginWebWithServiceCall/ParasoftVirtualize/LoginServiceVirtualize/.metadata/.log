@@ -1,0 +1,218 @@
+!SESSION 2018-05-08 16:02:12.460 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:02:15.512
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2018-05-08 16:02:31.354 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:02:34.565
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2018-05-08 15:27:07.798 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  Files\Parasoft\Test\9.10 for SOAtest & Virtualize\eclipse.exe -product com.parasoft.xtest.soavirt.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 Files\Parasoft\Test\9.10 for SOAtest & Virtualize\eclipse.exe -product com.parasoft.xtest.soavirt.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:02:50.982
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-08 16:47:51.546 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:48:15.184
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-08 16:49:25.969 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:49:29.127
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:49:45.302
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-08 16:53:39.663 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:53:43.226
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:53:59.847
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-08 16:54:49.828 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:54:53.459
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2018-05-08 16:56:18.615 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:56:38.223
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-08 16:59:07.752 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 16:59:11.046
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2018-05-08 17:00:06.407 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 17:00:24.962
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-08 17:08:15.218 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 17:08:18.910
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2018-05-08 17:10:13.052 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 17:10:32.825
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-08 17:41:36.556 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 17:41:39.555
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 17:41:55.199
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-08 17:42:46.912 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 17:42:50.210
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2018-05-08 17:45:54.379 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -stopServer
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 17:46:13.351
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-08 17:46:28.934 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 17:46:32.328
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2018-05-08 17:48:50.585 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 17:57:37.661
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-08 18:01:52.155 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+Command-line arguments:  -noupdate -data G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 18:01:55.636
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-08 18:03:16.157
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-09 00:53:10.024 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+Command-line arguments:  -noupdate -data G:\LocalVirtualize\DotNetWebVirtualizePrivate\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-09 00:53:25.969
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-09 01:20:00.086
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-09 12:34:17.736 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -noupdate -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+Command-line arguments:  -noupdate -data G:\LocalVirtualize\DotNetWebVirtualizePrivate\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize -application com.parasoft.xtest.testcases.eclipse.core.web.WebTestApplication -startServer -prefs workspace.properties
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-09 12:34:31.086
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-09 12:59:28.260
+!MESSAGE The workspace will exit with unsaved changes in this session.

@@ -1,0 +1,88 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"> 
+  <parent>
+    <artifactId>LoginWeb-parent</artifactId>
+    <groupId>LoginWeb</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>..</relativePath>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>LoginWeb</artifactId>
+  <packaging>pom</packaging>
+  <name>.NET project for testing</name>
+  
+  <properties>
+    <msbuild.exe>C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\msbuild.exe</msbuild.exe>
+    <msbuild.configuration>Release</msbuild.configuration>
+  </properties>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.1</version>
+        <configuration>
+          <executable>${msbuild.exe}</executable>
+          <workingDirectory>${basedir}/LoginWeb</workingDirectory>
+		  <workingDirectory>${basedir}/LoginWeb.Tests</workingDirectory>
+        </configuration>
+        <executions>
+          <execution>
+            <id>clean-with-msbuild</id>
+            <phase>clean</phase>
+            <goals>
+              <goal>exec</goal>
+            </goals>
+            <configuration>
+              <arguments>
+                <argument>/t:Clean</argument>
+                <argument>/p:Configuration=${msbuild.configuration}</argument>
+              </arguments>
+            </configuration>
+          </execution>
+          <execution>
+            <id>package-with-msbuild</id>
+            <phase>package</phase>
+            <goals>
+              <goal>exec</goal>
+            </goals>
+            <configuration>
+              <arguments>
+                <argument>/t:Rebuild</argument>
+                <argument>/p:Configuration=${msbuild.configuration}</argument>
+				<argument>/p:OutputPath=${basedir}/Build/bin</argument>
+              </arguments>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>    
+	  
+	  <plugin>
+    <artifactId>maven-resources-plugin</artifactId>
+    <version>3.0.2</version>
+    <executions>
+        <execution>
+            <id>copy-files-on-build</id>
+            <phase>validate</phase>
+            <goals>
+                <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+                <outputDirectory>${basedir}/Build</outputDirectory>
+                <resources>
+                    <resource>
+                        <directory>${basedir}/LoginWeb</directory>
+                        <include>LoginForm.aspx</include>
+						<include>TransitusLogoBig.png</include>
+						<include>Web.config</include>
+                        <filtering>false</filtering>
+                    </resource>
+                </resources>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+    </plugins>
+	
+  </build>    
+</project>

@@ -1,0 +1,34 @@
+[ERROR] [18:02:14,310] main com.parasoft.xtest.checkers.api.rules.RulesCore: URL is nul in rule provider com.parasoft.xtest.execution.eclipse.core.web.checker
+[INFO ] [18:02:14,616] Thread-21 com.parasoft.stub.Logger: Starting Server...
+[INFO ] [18:02:31,523] Thread-21 com.parasoft.stub.report.Logger: Builtin event monitoring provider started on port 9617
+[INFO ] [18:02:31,694] Thread-21 com.parasoft.stub.report.events.Logger: Event monitoring service started
+[INFO ] [18:02:32,373] Thread-21 com.parasoft.stub.report.Logger: Builtin hit statistics provider started on port 9618
+[INFO ] [18:02:32,396] Thread-21 com.parasoft.stub.report.statistics.Logger: Server hit statistics service started
+[INFO ] [18:02:32,398] Thread-21 com.parasoft.stub.Logger: Server started.
+[INFO ] [18:02:32,405] Thread-21 com.parasoft.stub.deployment.Logger: Deploying all assets...
+[INFO ] [18:02:33,066] Thread-21 com.parasoft.stub.deployment.Logger: Deploying virtual asset...
+[INFO ] [18:02:33,080] psft_pool-4-DeployerThread-1 com.parasoft.stub.deployment.Logger: 	Name="LoginService", Path="/Service1.svc", Location="G:\manas\work\TestApplications\DotNet\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize\VirtualAssets\LoginService.pva".
+[INFO ] [18:02:33,106] psft_pool-4-DeployerThread-1 com.parasoft.stub.deployment.Logger: Deployment finished
+[INFO ] [18:02:33,108] Thread-21 com.parasoft.stub.deployment.Logger: Deployment of all assets has finished
+[INFO ] [18:02:33,110] Thread-21 com.parasoft.stub.deployment.Logger: Deployment of [1] asset(s) took: 709 ms.
+[ERROR] [18:02:39,835] http-9080-1 com.parasoft.stub.HttpRequestProcessor: Could not find a valid Message Responder to respond to this request.
+Be sure you have a Message Responder with correlation criteria that match this message.
+1 virtual asset attempted to process this request: 
+LoginService
+	Fault
+		Correlation type: Transport
+			Disabled : true
+		Correlation type: Request Body
+			Empty Payload : false
+	LoginUser
+		Correlation type: Transport
+			[criteria=SOAPAction, expected=http://tempuri.org/IService1/LoginUser, actual=[NOT_FOUND], results=false]
+
+Request : 
+.
+[INFO ] [18:03:07,828] http-9080-1 com.parasoft.stub.ws.Logger: [Web service API] shutdown: [CTP=NONE, role=ADMIN, result=success]
+[INFO ] [18:03:07,831] http-9080-1 com.parasoft.stub.ws.Logger: [Web service API] shutdown
+[INFO ] [18:03:07,834] http-9080-1 com.parasoft.stub.deployment.Logger: Shutting down current deployments.
+[INFO ] [18:03:07,840] http-9080-1 com.parasoft.stub.deployment.Logger: Shutdown of deployments finished.
+[INFO ] [18:03:09,047] Framework stop com.parasoft.stub.deployment.Logger: Shutting down current deployments.
+[INFO ] [18:03:09,069] Framework stop com.parasoft.stub.deployment.Logger: Shutdown of deployments finished.

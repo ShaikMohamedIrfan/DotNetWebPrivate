@@ -1,0 +1,9 @@
+GET http://transitus09-pc/LoginWeb/TransitusLogoBig.png HTTP/1.1
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://transitus09-pc/LoginWeb/LoginForm.aspx
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+DNT: 1
+Host: transitus09-pc
+

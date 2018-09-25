@@ -1,0 +1,16 @@
+[ERROR] [16:10:51,117] Thread-9 com.parasoft.xtest.lic.client.validator.tokens.Logger: Cannot rename temporary token file
+[ERROR] [16:11:01,438] main com.parasoft.xtest.checkers.api.rules.RulesCore: URL is nul in rule provider com.parasoft.xtest.execution.eclipse.core.web.checker
+[INFO ] [16:11:01,735] Thread-22 com.parasoft.stub.Logger: Starting Server...
+[ERROR] [16:11:02,614] Thread-22 com.parasoft.stub.Logger: Cannot start server: Address already in use: JVM_Bind 9443
+[ERROR] [16:11:02,650] Thread-22 com.parasoft.webtool.tomcat.Logger: Address already in use: JVM_Bind
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at webtool.tomcat.TomcatServer.checkTomcatInUse(TomcatServer.java:460)
+	at webtool.tomcat.TomcatServer.access$6(TomcatServer.java:458)
+	at webtool.tomcat.TomcatServer$1.run(TomcatServer.java:414)

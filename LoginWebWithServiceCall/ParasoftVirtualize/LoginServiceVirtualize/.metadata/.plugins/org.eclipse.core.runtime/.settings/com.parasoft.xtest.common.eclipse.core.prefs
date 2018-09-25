@@ -1,0 +1,8 @@
+ISSUE_TRACKING_TAGS=<?xml version\="1.0" encoding\="utf-8"?><properties document_version\="1.0"/>
+SORT_TESTS_BUTTON_KEY=true
+WSDL_COMBO_BOX_KEY=http\://localhost\:8000/Service1.svc?wsdl
+com.parasoft.xtest.checkers.api.version=1
+eclipse.preferences.version=1
+grs.project.center.default.user.name=true
+grs.project.center.user.name=Transitus18
+team.preferences.version=1

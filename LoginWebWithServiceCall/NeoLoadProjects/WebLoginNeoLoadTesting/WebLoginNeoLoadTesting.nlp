@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=WebLoginNeoLoadTesting
+project.version=6.2
+project.original.version=6.2
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.version=6.3.1
+product.original.version=6.3.1
+project.id=7270021f-8028-487e-87ae-62428094af51
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=false

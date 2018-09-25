@@ -1,0 +1,20 @@
+INDEX VERSION 1.130+G:\manas\work\DevOpsTest\TestApplications\DotNetTestApplication\LoginWeb\ParasoftSOATest\.metadata\.plugins\org.eclipse.jdt.core
+3114850720.index
+1774123029.index
+1685386200.index
+1782144839.index
+3824007614.index
+228115231.index
+4109826314.index
+3807394363.index
+2241868531.index
+2632553873.index
+2519907840.index
+536761611.index
+2405943245.index
+4183105817.index
+4153433361.index
+1008455623.index
+1973258032.index
+1349733856.index
+3529179557.index

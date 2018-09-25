@@ -1,0 +1,20 @@
+[ERROR] [12:35:23,635] main com.parasoft.xtest.checkers.api.rules.RulesCore: URL is nul in rule provider com.parasoft.xtest.execution.eclipse.core.web.checker
+[INFO ] [12:35:27,223] Thread-24 com.parasoft.stub.Logger: Starting Server...
+[INFO ] [12:35:58,298] Thread-24 com.parasoft.stub.report.Logger: Builtin event monitoring provider started on port 9617
+[INFO ] [12:35:58,643] Thread-24 com.parasoft.stub.report.events.Logger: Event monitoring service started
+[INFO ] [12:35:59,545] Thread-24 com.parasoft.stub.report.Logger: Builtin hit statistics provider started on port 9618
+[INFO ] [12:35:59,594] Thread-24 com.parasoft.stub.report.statistics.Logger: Server hit statistics service started
+[INFO ] [12:35:59,595] Thread-24 com.parasoft.stub.Logger: Server started.
+[INFO ] [12:35:59,605] Thread-24 com.parasoft.stub.deployment.Logger: Deploying all assets...
+[INFO ] [12:36:01,240] Thread-24 com.parasoft.stub.deployment.Logger: Deploying virtual asset...
+[INFO ] [12:36:01,323] psft_pool-4-DeployerThread-1 com.parasoft.stub.deployment.Logger: 	Name="LoginService", Path="/Service1.svc", Location="G:\LocalVirtualize\DotNetWebVirtualizePrivate\LoginWebWithServiceCall\ParasoftVirtualize\LoginServiceVirtualize\VirtualAssets\LoginService.pva".
+[INFO ] [12:36:01,380] psft_pool-4-DeployerThread-1 com.parasoft.stub.deployment.Logger: Deployment finished
+[INFO ] [12:36:01,404] Thread-24 com.parasoft.stub.deployment.Logger: Deployment of all assets has finished
+[INFO ] [12:36:01,408] Thread-24 com.parasoft.stub.deployment.Logger: Deployment of [1] asset(s) took: 1,808 ms.
+[INFO ] [12:56:06,683] psft_pool-3-UStubLic-1 com.parasoft.stub.lic.Logger: [HitLicense] Hit count: 1/unlimited
+[INFO ] [12:59:19,974] http-9080-1 com.parasoft.stub.ws.Logger: [Web service API] shutdown: [CTP=NONE, role=ADMIN, result=success]
+[INFO ] [12:59:20,006] http-9080-1 com.parasoft.stub.ws.Logger: [Web service API] shutdown
+[INFO ] [12:59:20,018] http-9080-1 com.parasoft.stub.deployment.Logger: Shutting down current deployments.
+[INFO ] [12:59:20,021] http-9080-1 com.parasoft.stub.deployment.Logger: Shutdown of deployments finished.
+[INFO ] [12:59:20,768] Framework stop com.parasoft.stub.deployment.Logger: Shutting down current deployments.
+[INFO ] [12:59:20,858] Framework stop com.parasoft.stub.deployment.Logger: Shutdown of deployments finished.
